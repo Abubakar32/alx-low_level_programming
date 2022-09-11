@@ -1,6 +1,4 @@
 #!/bin/bash
-root@beeec1328d28:/alx-low_level_programming/0x00-hello_world# cat > 4-puts.c
-#!/bin/bash
 /**
  * main -entry point
  *
