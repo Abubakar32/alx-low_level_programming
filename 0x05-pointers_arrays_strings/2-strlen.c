@@ -1,20 +1,19 @@
-#include "main.h"
 #include <stdio.h>
 
+int _strlen (char *);
+
 /**
- * _puts - prints a string
- * @str: string
+ * main - check the code for Holberton School students.
+ *
+ * Return: Always 0.
  */
-
-void _puts(char *str)
+int main(void)
 {
-	int i = 0;
+	char *str;
+	int len;
 
-	while (*(str + i) != '\0')
-	{
-		putchar(*(str + i));
-		i++;
-	}
-	putchar(10);
+	str = "Holberton!";
+	len = _strlen(str);
+	printf("%d\n", len);
+	return (0);
 }
-
