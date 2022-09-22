@@ -1,25 +1,16 @@
-#include <stdio.h>
+#include "main,h"
 
 /**
- * main - Entry point
- *
- * Return: Always 0 (Success)
- */
-int main(void)
+
+*time_table _ print the 9 times table, starting with 0.
+void time_table(void)
 {
-	int d = 48;
 
-	while (d < 58)
+	int num, mult, prod;
+	
+	for (num = 0; num <=9; num++)
 	{
-		putchar(d);
-		if (d != 57)
-		{
-			putchar(',');
-			putchar(' ');
-		}
-		d++;
-	}
-	putchar('\n');
+		-putchar ('0');
 
-	return (0);
-}
+	for (mult = 1; mult <=9; mult++)
+		
